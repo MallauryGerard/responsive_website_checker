@@ -19,19 +19,26 @@ Run this command to show the manual.
 
 ### Options
 - **-h | --help**
+    
     Show the manual.
 - **--file=_file_**
+    
     Use it to scan several URLs at the same time. The file must contains one URL per line.
 - **--url=_url_**
+    
     Use it to scan only one URL.
 - **--with-screenshot**
+    
     Add this option the take a screenshot of each website.
     All screens will be stored in ./screens folder
 - **--with-screenshot=no-responsive**
+    
     If you add "no-responsive" to the this option, it will only take a screenshot if the website is not responsive.
 - **--to-csv**
+    
     Use it to output the results in a CSV file (./output.csv)
 - **--show-browser**
+    
     Show the browser while the script is running (the process runs in background by default)
 
 **You must at least use the --file or --url option to run the script**
